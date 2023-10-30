@@ -1,0 +1,2565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <nav id="navbar">
+  <header>Responsive Web Design</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#Learn_HTML_by_Building_a_cat_Photo_App:"
+        >Learn HTML by Building a cat Photo App:</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Learn_Basic_CSS_by_Building_a_Cafe_Menu:">Learn Basic CSS by Building a Cafe Menu:</a>
+    </li>
+    <li><a class="nav-link" href="#Learn_CSS_Colors_by_Building_a_Set_of_Colored_Markers:">Learn CSS Colors by Building a Set of Colored Markers:</a></li>
+    <li><a class="nav-link" href="#Learn_HTML_Forms_by_Building_a_Registration_Form:">Learn HTML Forms by Building a Registration Form:</a></li>
+    <li>
+      <a class="nav-link" href="#Survey_Form_-_Certification_Project:">Survey Form - Certification Project:</a>
+    </li>
+    <li><a class="nav-link" href="#Learn_the_CSS_Box_Model_by_Building_a_Rothko_Painting:">Learn the CSS Box Model by Building a Rothko Painting:</a></li>
+    <li><a class="nav-link" href="#Learn_CSS_Flexbox_by_Building_a_Photo_Gallery:">Learn CSS Flexbox by Building a Photo Gallery:</a></li>
+    <li><a class="nav-link" href="#Learn_Typhography_by_Building_a_Nutrition_Label:">Learn Typhography by Building a Nutrition Label:</a></li>
+    <li><a class="nav-link" href="#Learn_Accessibility_by_Building_a_Quiz:">Learn Accessibility by Building a Quiz:</a></li>
+    <li><a class="nav-link" href="#Tribute_Page_-_Certification_Project:">Tribute Page - Certification Project:</a>
+    </li>
+    <li><a class="nav-link" href="#Learn_More_About_CSS_Pseudo_Selectors_By_Building_A_Balance_Sheet:">Learn More About CSS Pseudo Selectors By Building A Balance Sheet:</a>
+    </li>
+    <li><a class="nav-link" href="#Learn_Intermediate_CSS_by_Building_a_Cat_Painting:">Learn Intermediate CSS by Building a Cat Painting:</a>
+    </li>
+    <li><a class="nav-link" href="#Learn_Responsive_Web_Design_by_Building_a_Piano:">Learn Responsive Web Design by Building a Piano:</a>
+    </li>
+    <li><a class="nav-link" href="#Technical_Documentation_Page_-_Certification_Project:">Technical Documentation Page - Certification Project:</a>
+    </li>
+    <li><a class="nav-link" href="#Learn_CSS_Variables_by_Building_a_City_Skyline:">Learn CSS Variables by Building a City Skyline:</a>
+    </li>
+    <li><a class="nav-link" href="#Learn_CSS_Grid_by_Building_a_Magazine:">Learn CSS Grid by Building a Magazine:</a>
+    </li>
+    <li><a class="nav-link" href="#Product_Landing_Page_-_Certification_Project:">Product Landing Page - Certification Project:</a>
+    </li>
+    <li><a class="nav-link" href="#Learn_CSS_Animation_by_Building_a_Ferris_Wheel:">Learn CSS Animation by Building a Ferris Wheel:</a>
+    </li>
+    <li><a class="nav-link" href="#Learn_CSS_Transforms_by_Building_a_Penguin:">Learn CSS Transforms by Building a Penguin:</a>
+    </li>
+    <li><a class="nav-link" href="#Personal_Portfolio_Webpage_-_Certification_Project:">Personal Portfolio Webpage - Certification Project:</a>
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.</p>
+
+<p>First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, you'll learn modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a quiz site.</p>
+
+<p>Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with Flexbox, and a magazine article layout with CSS Grid.</p>
+    </article>
+  </section>
+  <section class="main-section" id="Learn_HTML_by_Building_a_cat_Photo_App:">
+    <header>Learn HTML by Building a cat Photo App:</header>
+    <article>
+      <p>HTML tags give a webpage its structure. You can use HTML tags to add photos, buttons, and other elements to your webpage.</p>
+
+<p>In this course, you'll learn the most common HTML tags by building your own cat photo app.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>Non Existent</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1" target="_blank">Course 1</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+ <section class="main-section" id="Learn_Basic_CSS_by_Building_a_Cafe_Menu:">
+    <header>Learn Basic CSS by Building a Cafe Menu:</header>
+    <article>
+      <p>CSS tells the browser how to display your webpage. You can use CSS to set the color, font, size, and other aspects of HTML elements.</p>
+
+<p>In this course, you'll learn CSS by designing a menu page for a cafe webpage.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
+    </div>
+  </body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-1" target="_blank">Course 2</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_CSS_Colors_by_Building_a_Set_of_Colored_Markers:">
+    <header>Learn CSS Colors by Building a Set of Colored Markers:</header>
+    <article>
+      <p>Selecting the correct colors for your webpage can greatly improve the aesthetic appeal to your readers.</p>
+
+<p>In this course, you'll build a set of colored markers. You'll learn different ways to set color values and how to pair colors with each other.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Markers</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>CSS Color Markers</h1>
+    <div class="container">
+      <div class="marker red">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+      <div class="marker green">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+      <div class="marker blue">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+    </div>
+  </body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve {
+  display: inline-block;
+}
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 blue;
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-1" target="_blank">Course 3</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_HTML_Forms_by_Building_a_Registration_Form:">
+    <header>Learn HTML Forms by Building a Registration Form:</header>
+    <article>
+      <p>You can use HTML forms to collect information from people who visit your webpage.</p>
+
+<p>In this course, you'll learn HTML forms by building a signup page. You'll learn how to control what types of data people can type into your form, and some new CSS tools for styling your page.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-1" target="_blank">Course 4</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Survey_Form_-_Certification_Project:">
+    <header>Survey Form - Certification Project:</header>
+    <article>
+      <p>This is one of the required projects to earn your certification.</p> 
+        
+<p>For this prodject, you will build a survey form to ccollect data from your users.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css"> 
+<html lang="en">
+  <div class="container">
+  <header class="header">
+    <h1 class="text-center" id="title" >Survey Form - CV</h1>
+    <p class="text-center" id="description" >
+      I appreciate you dedicating your time to assist me in enhancing my CV.
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label for="name" id="name-label">Name</label>
+      <input
+        class="form-control"
+        id="name"
+        name="name"
+        type="text"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="email" id="email-label">Email</label>
+      <input
+        class="form-control"
+        id="email"
+        name="email"
+        type="email"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="number" id="number-label" 
+      >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        class="form-control"
+        id="number"
+        type="number"
+        name="age"
+        min="13"
+        max="120"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+      <p>Which choice most accurately represents your present position?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="CEO">CEO</option>
+        <option value="Manager">Manager</option>
+        <option value="Engineer">Engineer</option>
+        <option value="Employee">Employee</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>Do you believe I would be a valuable addition to your workplace?</p>
+      <label>
+        <input
+          class="input-radio"
+          type="radio"
+          name="user-recommend"
+          value="Yes"
+          checked
+        />Yes</label
+      >
+      <label>
+        <input
+          class="input-radio"
+          type="radio"
+          name="user-recommend"
+          value="No"
+        />No</label
+      >
+
+      <label
+        ><input
+          class="input-radio"
+          type="radio"
+          name="user-recommend"
+          value="Unsure"
+        />Unsure</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>
+        What is your favorite part on my CV?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="Work Experience">Work Experience</option>
+        <option value="Education">Education</option>
+        <option value="Certifications">Certifications</option>
+        <option value="Language">Language Skills</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        What areas do you think need enhancement?
+        <span class="clue">(Select all that are relevant)</span>
+      </p>
+
+      <label
+        ><input
+          class="input-checkbox"
+          type="checkbox"
+          name="prefer"
+          value="Front-end"
+        />Front-end</label
+      >
+      <label>
+        <input
+          class="input-checkbox"
+          type="checkbox"
+          name="prefer"
+          value="Back-end"
+        />Back-end</label
+      >
+      <label
+        ><input
+          class="input-checkbox"
+          type="checkbox"
+          name="prefer"
+          value="Database"
+        />Database</label
+      >
+      <label
+        ><input
+          class="input-checkbox"
+          type="checkbox"
+          name="prefer"
+          value="Work Experience"
+        />Work Experience</label
+      >
+      <label
+        ><input
+          class="input-checkbox"
+          type="checkbox"
+          name="prefer"
+          value="Education"
+        />Education</label
+      >
+      <label
+        ><input
+          class="input-checkbox"
+          type="checkbox"
+          name="prefer"
+          value="Certifications"
+        />Certifications</label
+      >
+      <label
+        ><input
+          class="input-checkbox"
+          type="checkbox"
+          name="prefer"
+          value="Language Skills"
+        />Language Skills</label
+      >
+      <label
+        ><input
+          class="input-checkbox"
+          name="prefer"
+          type="checkbox"
+          value="Programming Languages"
+        />Programming Languages</label
+      >
+      <label
+        ><input
+          class="input-checkbox"
+          type="checkbox"
+          name="prefer"
+          value="Github Repository"
+        />Github Repository</label
+      >
+      <label
+        ><input
+          class="input-checkbox"
+          type="checkbox"
+          name="prefer"
+          value="References"
+        />References</label
+      >
+      <label
+        ><input
+          class="input-checkbox"
+          name="prefer"
+          type="checkbox"
+          value="Nothing"
+        />Nothing</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>Do you have any feedback or recommendations?</p>
+      <textarea
+        class="input-textarea"
+        id="comments"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button class="submit-button" id="submit" type="submit">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+body {
+  font-family: serif, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: rgb(250,250,250);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: #2CA4FE;
+  background-image: linear-gradient(
+      360deg,
+      rgba(100, 155, 50, 0.5),
+      rgba(30, 50, 155, 0.6)
+    ),
+    url(https://www.wta.org/site_images/hikes/sourdough-mountain-elt.jpg-1/@@images/cae163f5-a275-4cf5-b1e4-89134957cd3a.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 85%;
+  margin: 2.5rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.header {
+  padding: 0 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-style: serif;
+  font-weight: 200;
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+form {
+  background: rgba(44, 164, 254, 0.6);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+.form-group {
+  margin: 0 auto 1rem auto;
+  padding: 0.2rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.5rem 0.5rem;
+  color: #555555;
+  background-color: #f5f5f5;
+  background-clip: padding-box;
+  border: 1px solid #555555;
+  border-radius: 0.5rem;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.5rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.input-textarea {
+  min-height: 100px;
+  width: 100%;
+  padding: 0.5rem;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: hsl(127, 80%, 45%);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form" target="_blank">Course 5</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_the_CSS_Box_Model_by_Building_a_Rothko_Painting:">
+    <header>Learn the CSS Box Model by Building a Rothko Painting:</header>
+    <article>
+      <p>Every HTML element is its own box – with its own spacing and a border. This is called the Box Model.</p>
+
+<p>In this course, you'll use CSS and the Box Model to create your own Rothko-style rectangular art pieces.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rothko Painting</title>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="frame">
+      <div class="canvas">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    </div>
+  </body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+.canvas {
+  width: 500px;
+  height: 600px;
+  background-color: #4d0f00;
+  overflow: hidden;
+  filter: blur(2px);
+}
+
+.frame {
+  border: 50px solid black;
+  width: 500px;
+  padding: 50px;
+  margin: 20px auto;
+}
+
+.one {
+  width: 425px;
+  height: 150px;
+  background-color: #efb762;
+  margin: 20px auto;
+  box-shadow: 0 0 3px 3px #efb762;
+  border-radius: 9px;
+  transform: rotate(-0.6deg);
+}
+
+.two {
+  width: 475px;
+  height: 200px;
+  background-color: #8f0401;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 3px 3px #8f0401;
+  border-radius: 8px 10px;
+  transform: rotate(0.4deg);
+}
+
+.one, .two {
+  filter: blur(1px);
+}
+
+.three {
+  width: 91%;
+  height: 28%;
+  background-color: #b20403;
+  margin: auto;
+  filter: blur(2px);
+  box-shadow: 0 0 5px 5px #b20403;
+  border-radius: 30px 25px 60px 12px;
+transform: rotate(-0.2deg);
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-1" target="_blank">Course 6</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_CSS_Flexbox_by_Building_a_Photo_Gallery:">
+    <header>Learn CSS Flexbox by Building a Photo Gallery:</header>
+    <article>
+      <p>Flexbox helps you design your webpage so that it looks good on any screen size.</p>
+
+<p>In this course, you'll use Flexbox to build a responsive photo gallery webpage.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>css flexbox photo gallery</h1>
+    </header>
+    <div class="gallery">
+      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg" alt="Catman">
+      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg" alt="Catman">
+      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg" alt="Catman">
+      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg" alt="Catman">
+      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg" alt="Catman">
+      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg" alt="Catman">
+      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg" alt="Catman">
+      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg" alt="Catman">
+      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg" alt="Catman">
+    </div>
+  </body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/step-1" target="_blank">Course 7</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_Typhography_by_Building_a_Nutrition_Label:">
+    <header>Learn Typhography by Building a Nutrition Label:</header>
+    <article>
+      <p>Typography is the art of styling your text to be easily readable and suit its purpose.</p>
+
+<p>In this course, you'll use typography to build a nutrition label webpage. You'll learn how to style text, adjust line height, and position your text using CSS.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nutrition Label</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="label">
+    <header>
+      <h1 class="bold">Nutrition Facts</h1>
+      <div class="divider"></div>
+      <p>8 servings per container</p>
+      <p class="bold">Serving size <span>2/3 cup (55g)</span></p>
+    </header>
+    <div class="divider large"></div>
+    <div class="calories-info">
+      <div class="left-container">
+        <h2 class="bold small-text">Amount per serving</h2>
+        <p>Calories</p>
+      </div>
+      <span>230</span>
+    </div>
+    <div class="divider medium"></div>
+    <div class="daily-value small-text">
+      <p class="bold right no-divider">% Daily Value *</p>
+      <div class="divider"></div>
+      <p><span><span class="bold">Total Fat</span> 8g</span> <span class="bold">10%</span></p>
+      <p class="indent no-divider">Saturated Fat 1g <span class="bold">5%</span></p>
+      <div class="divider"></div>
+      <p class="indent no-divider"><span><i>Trans</i> Fat 0g</span></p>
+      <div class="divider"></div>
+      <p><span><span class="bold">Cholesterol</span> 0mg</span> <span class="bold">0%</span></p>
+      <p><span><span class="bold">Sodium</span> 160mg</span> <span class="bold">7%</span></p>
+      <p><span><span class="bold">Total Carbohydrate</span> 37g</span> <span class="bold">13%</span></p>
+      <p class="indent no-divider">Dietary Fiber 4g</p>
+      <div class="divider"></div>
+      <p class="indent no-divider">Total Sugars 12g</p>
+      <div class="divider double-indent"></div>
+      <p class="double-indent no-divider">Includes 10g Added Sugars <span class="bold">20%</span>
+      <div class="divider"></div>
+      <p class="no-divider"><span class="bold">Protein</span> 3g</p>
+      <div class="divider large"></div>
+      <p>Vitamin D 2mcg <span>10%</span></p>
+      <p>Calcium 260mg <span>20%</span></p>
+      <p>Iron 8mg <span>45%</span></p>
+      <p class="no-divider">Potassium 235mg <span>6%</span></p>
+    </div>
+    <div class="divider medium"></div>
+    <p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily
+      diet. 2,000 calories a day is used for general nutrition advice.</p>
+  </div>
+</body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.label {
+  border: 2px solid black;
+  width: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
+
+header h1 {
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px
+}
+
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.large {
+  height: 10px;
+}
+
+.large, .medium {
+  background-color: black;
+  border: 0;
+}
+
+.medium {
+  height: 5px;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
+
+
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.calories-info h2 {
+  margin: 0;
+}
+
+.left-container p {
+  margin: -5px -2px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.calories-info span {
+  margin: -7px -2px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.double-indent {
+  margin-left: 2em;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
+
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+  padding: 0 8px;
+  text-indent:-8px;
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-typography-by-building-a-nutrition-label/step-1" target="_blank">Course 8</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_Accessibility_by_Building_a_Quiz:">
+    <header>Learn Accessibility by Building a Quiz:</header>
+    <article>
+      <p>Accessibility is making your webpage easy for all people to use – even people with disabilities.</p>
+
+<p>In this course, you'll build a quiz webpage. You'll learn accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>Accessibility Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
+      <h1>HTML/CSS Quiz</h1>
+      <nav>
+        <ul>
+          <li><a accesskey="i" href="#student-info">INFO</a></li>
+          <li><a accesskey="h" href="#html-questions">HTML</a></li>
+          <li><a accesskey="c" href="#css-questions">CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+        <section role="region" aria-labelledby="student-info">
+          <h2 id="student-info">Student Info</h2>
+          <div class="info">
+            <label for="student-name">Name:</label>
+            <input type="text" name="student-name" id="student-name" />
+          </div>
+          <div class="info">
+            <label for="student-email">Email:</label>
+            <input type="email" name="student-email" id="student-email" />
+          </div>
+          <div class="info">
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+            <input type="date" name="birth-date" id="birth-date" />
+          </div>
+        </section>
+        <section role="region" aria-labelledby="html-questions">
+          <h2 id="html-questions">HTML</h2>
+          <div class="question-block">
+            <p>1</p>
+            <fieldset class="question" name="html-question-one">
+              <legend>
+                The legend element represents a caption for the content of its
+                parent fieldset element
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q1-a1">
+                    <input type="radio" id="q1-a1" name="q1" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q1-a2">
+                    <input type="radio" id="q1-a2" name="q1" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="question-block">
+            <p>2</p>
+            <fieldset class="question" name="html-question-two">
+              <legend>
+                A label element nesting an input element is required to have a
+                for attribute with the same value as the input's id
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q2-a1">
+                    <input type="radio" id="q2-a1" name="q2" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q2-a2">
+                    <input type="radio" id="q2-a2" name="q2" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+        </section>
+        <section role="region" aria-labelledby="css-questions">
+          <h2 id="css-questions">CSS</h2>
+          <div class="formrow">
+            <div class="question-block">
+              <label for="customer">Are you a frontend developer?</label>
+            </div>
+            <div class="answer">
+              <select name="customer" id="customer" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="question-block">
+              <label for="css-questions">Do you have any questions:</label>
+            </div>
+            <div class="answer">
+              <textarea id="css-questions" name="css-questions" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
+            </div>
+          </div>
+        </section>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+    <footer>
+      <address>
+        <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+        San Francisco<br />
+        California<br />
+        USA
+      </address>
+    </footer>
+  </body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #1b1b32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+#logo {
+  width: max(100px, 18vw);
+  background-color: #0a0a23;
+  aspect-ratio: 35 / 4;
+  padding: 0.4rem;
+}
+
+h1 {
+  color: #f1be32;
+  font-size: min(5vw, 1.2em);
+  text-align: center;
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  padding-top: 50px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto 10px auto;
+  max-width: 600px;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Tahoma;
+}
+
+h2 {
+  border-bottom: 4px solid #dfdfe2;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+
+.info {
+  padding: 10px 0 0 5px;
+}
+
+.formrow {
+  margin-top: 30px;
+  padding: 0px 15px;
+}
+
+input {
+  font-size: 16px;
+}
+
+.info label, .info input {
+  display: inline-block;
+}
+
+.info input {
+  width: 50%;
+  text-align: left;
+}
+
+.info label {
+  width: 10%;
+  min-width: 55px;
+  text-align: right;
+}
+
+.question-block {
+  text-align: left;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+p {
+  margin-top: 5px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+p::before {
+  content: "Question #";
+}
+
+.question {
+  border: none;
+  padding-bottom: 0;
+}
+
+.answers-list {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  display: block;
+  margin: 40px auto;
+  width: 40%;
+  padding: 15px;
+  font-size: 23px;
+  background: #d0d0d5;
+  border: 3px solid #3b3b4f;
+}
+
+footer {
+  background-color: #2a2a40;
+  display: flex;
+  justify-content: center;
+}
+
+footer,
+footer a {
+  color: #dfdfe2;
+}
+
+address {
+  text-align: center;
+  padding: 0.3em;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz/step-1" target="_blank">Course 9</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Tribute_Page_-_Certification_Project:">
+    <header>Tribute Page - Certification Project:</header>
+    <article>
+      <p>This is one of the required projects to earn your certification.</p>
+        
+<p>For this prodject, you will build a tribute page for a subject of your choosing, fictional or real.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <main id="main">
+    <link rel="stylesheet" href="styles.css" />
+    
+  <h1 id="title">Paal Hartvik Sprakehaug</h1>
+  <p>Curriculum Vitae 2023</p>
+  <figure id="img-div">
+    <img
+      id="image"
+      src="https://i.pinimg.com/280x280_RS/dd/bb/4f/ddbb4ff3443b9429e82dfe100ceb35ab.jpg"
+      alt="Paal Hartvik sprakehaug in Norway hiking."
+    />
+    <figcaption id="img-caption">
+      Paal Hartvik sprakehaug in Norway hiking. 
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <h3 id="headline">Here's a time line of Paal Hartvik Sprakehaugs professional life:</h3>
+    <ul>
+      <li><strong>2005</strong> - Attended elementery school (Berger Skole).</li>
+      <li>
+        <strong>2012</strong> - Attended middle school (Alværn Ungdomskole).
+      </li>
+      <li>
+        <strong>2015</strong> - Attended High school (Nesodden Vidregående Skole).
+      </li>
+      <li>
+        <strong>2018</strong> - Started part-time work at Meny AS Nesodden as a Fresh produce employee. Independent work involving fresh produce sales, packaging orders, safe food handling, hygiene practices, customer service, closing of the fresh produce department, opening of the fresh produce department, placing orders, logging, production tasks, cleaning and training new employees.
+      </li>
+      <li>
+        <strong>2020</strong> - Attenden Bachelor of business administration at BI - Trondheim. Started part-time work at Jordbærpikene Trondheim as kitchen and café employee on the side. Independent work involving take orders, serve, operate cash register, cleaning, restock, track inventory, handling customer feedback, prep ingredients, cook meals, monitor food stock, follow hygiene regulations, check food quality, manage food waste, set up/break down stations and follow safety protocols.
+      </li>
+      <li>
+        <strong>2023</strong> - Back at Meny AS Nesodden as a Summer substitute. Job is involving source and purchase of seafood, inspect quality, cleaning and preparing, displaying, costumer service, sales, sanitation, order and inventory, packaging and production.
+      </li>
+      <li>
+        <strong>2023(2)</strong> - Start to work full-time as a forkliftdriver at DSV in Denmark. Taking courses online at Norhoff Annual study backend development
+      </li>  
+    </ul>
+    <blockquote
+      cite="https://www.linkedin.com/in/paal-hartvik-sprakehaug-31b916199/"
+    >
+      <p>
+        "Hartvik's life and achievement are testimony to the far-reaching
+        contribution that one man's towering intellect, persistence and
+        scientific vision can make to human peace and progress."
+      </p>
+      <cite>-- Indian Prime Minister Manmohan Singh</cite>
+    </blockquote>
+    <h3>
+      If you have time, you should read more about this incredible human being
+      on his
+      <a
+        id="tribute-link"
+        href="https://www.linkedin.com/in/paal-hartvik-sprakehaug-31b916199/"
+        target="_blank"
+        >Linkedin</a
+      >.
+    </h3>
+  </section>
+</main>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #3f3f3f;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page" target="_blank">Course 10</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_More_About_CSS_Pseudo_Selectors_By_Building_A_Balance_Sheet:">
+    <header>Learn More About CSS Pseudo Selectors By Building A Balance Sheet:</header>
+    <article>
+      <p>You can use CSS pseudo selectors to change specific HTML elements.</p>
+
+<p>In this course, you'll build a balance sheet using pseudo selectors. You'll learn how to change the style of an element when you hover over it with your mouse, and trigger other events on your webpage.</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance Sheet</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>
+          <span class="flex">
+            <span>AcmeWidgetCorp</span>
+            <span>Balance Sheet</span>
+          </span>
+        </h1>
+        <div id="years" aria-hidden="true">
+          <span class="year">2019</span>
+          <span class="year">2020</span>
+          <span class="year">2021</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Assets</caption>
+            <thead>
+              <tr>
+                <td></td>
+                <th><span class="sr-only year">2019</span></th>
+                <th><span class="sr-only year">2020</span></th>
+                <th class="current"><span class="sr-only year">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="data">
+                <th>Cash <span class="description">This is the cash we currently have on hand.</span></th>
+                <td>$25</td>
+                <td>$30</td>
+                <td class="current">$28</td>
+              </tr>
+              <tr class="data">
+                <th>Checking <span class="description">Our primary transactional account.</span></th>
+                <td>$54</td>
+                <td>$56</td>
+                <td class="current">$53</td>
+              </tr>
+              <tr class="data">
+                <th>Savings <span class="description">Funds set aside for emergencies.</span></th>
+                <td>$500</td>
+                <td>$650</td>
+                <td class="current">$728</td>
+              </tr>
+              <tr class="total">
+                <th>Total <span class="sr-only">Assets</span></th>
+                <td>$579</td>
+                <td>$736</td>
+                <td class="current">$809</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <caption>Liabilities</caption>
+            <thead>
+              <tr>
+              <td></td>
+              <th><span class="sr-only">2019</span></th>
+              <th><span class="sr-only">2020</span></th>
+              <th><span class="sr-only">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="data">
+                <th>Loans <span class="description">The outstanding balance on our startup loan.</span></th>
+                <td>$500</td>
+                <td>$250</td>
+                <td class="current">$0</td>
+              </tr>
+              <tr class="data">
+                <th>Expenses <span class="description">Annual anticipated expenses, such as payroll.</span></th>
+                <td>$200</td>
+                <td>$300</td>
+                <td class="current">$400</td>
+              </tr>
+              <tr class="data">
+                <th>Credit <span class="description">The outstanding balance on our credit card.</span></th>
+                <td>$50</td>
+                <td>$50</td>
+                <td class="current">$75</td>
+              </tr>
+              <tr class="total">
+                <th>Total <span class="sr-only">Liabilities</span></th>
+                <td>$750</td>
+                <td>$600</td>
+                <td class="current">$475</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <caption>Net Worth</caption>
+            <thead>
+              <tr>
+              <td></td>
+              <th><span class="sr-only">2019</span></th>
+              <th><span class="sr-only">2020</span></th>
+              <th><span class="sr-only">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="total">
+                <th>Total <span class="sr-only">Net Worth</span></th>
+                <td>$-171</td>
+                <td>$136</td>
+                <td class="current">$334</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+span[class~="sr-only"] {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  width: 1px !important;
+  position: absolute !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  padding: 0 !important;
+  margin: -1px !important;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #0a0a23;
+}
+
+h1 {
+  max-width: 37.25rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+}
+
+h1 .flex {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+h1 .flex span:first-of-type {
+  font-size: 0.7em;
+}
+
+h1 .flex span:last-of-type {
+  font-size: 1.2em;
+}
+
+section {
+  max-width: 40rem;
+  margin: 0 auto;
+  border: 2px solid #d0d0d5;
+}
+
+#years {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  background: #0a0a23;
+  color: #fff;
+  padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+  margin: 0 -2px;
+}
+
+#years span[class] {
+  font-weight: bold;
+  width: 4.5rem;
+  text-align: right;
+}
+
+.table-wrap {
+  padding: 0 0.75rem 1.5rem 0.75rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0;
+  width: 100%;
+  position: relative;
+  margin-top: 3rem;
+}
+
+table caption {
+  color: #356eaf;
+  font-size: 1.3em;
+  font-weight: normal;
+  position: absolute;
+  top: -2.25rem;
+  left: 0.5rem;
+}
+
+tbody td {
+  width: 100vw;
+  min-width: 4rem;
+  max-width: 4rem;
+}
+
+tbody th {
+  width: calc(100% - 12rem);
+}
+
+tr[class="total"] {
+  border-bottom: 4px double #0a0a23;
+  font-weight: bold;
+}
+
+tr[class="total"] th {
+  text-align: left;
+  padding: 0.5rem 0 0.25rem 0.5rem;
+}
+
+tr.total td {
+  text-align: right;
+  padding: 0 0.25rem;
+}
+
+tr.total td:nth-of-type(3) {
+  padding-right: 0.5rem;
+}
+
+tr.total:hover {
+  background-color: #99c9ff;
+}
+
+td.current {
+  font-style: italic;
+}
+
+tr.data {
+  background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
+}
+
+tr.data th {
+  text-align: left;
+  padding-top: 0.3rem;
+  padding-left: 0.5rem;
+}
+
+tr.data th .description {
+  display: block;
+  font-weight: normal;
+  font-style: italic;
+  padding: 1rem 0 0.75rem;
+  margin-right: -13.5rem;
+}
+
+tr.data td {
+  vertical-align: top;
+  padding: 0.3rem 0.25rem 0;
+  text-align: right;
+}
+
+tr.data td:last-of-type {padding: 0 0.5rem 0 0;}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet/step-1" target="_blank">Course 11</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_Intermediate_CSS_by_Building_a_Cat_Painting:">
+    <header>Learn Intermediate CSS by Building a Cat Painting:</header>
+    <article>
+      <p>Cat</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fCC Cat Painting</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+      <div class="cat-head">
+        <div class="cat-ears">
+          <div class="cat-left-ear">
+            <div class="cat-left-inner-ear"></div>
+          </div>
+          <div class="cat-right-ear">
+            <div class="cat-right-inner-ear"></div>
+          </div>
+        </div>
+
+        <div class="cat-eyes">
+          <div class="cat-left-eye">
+            <div class="cat-left-inner-eye"></div>
+          </div>
+          <div class="cat-right-eye">
+            <div class="cat-right-inner-eye"></div>
+          </div>
+        </div>
+        
+        <div class="cat-nose"></div>
+
+        <div class="cat-mouth">
+          <div class="cat-mouth-line-left"></div>
+          <div class="cat-mouth-line-right"></div>
+        </div>
+
+        <div class="cat-whiskers">
+          <div class="cat-whiskers-left">
+            <div class="cat-whisker-left-top"></div>
+            <div class="cat-whisker-left-middle"></div>
+            <div class="cat-whisker-left-bottom"></div>
+          </div>
+          <div class="cat-whiskers-right">
+            <div class="cat-whisker-right-top"></div>
+            <div class="cat-whisker-right-middle"></div>
+            <div class="cat-whisker-right-bottom"></div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+</body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c9d2fc;
+}
+
+.cat-head {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+  width: 205px;
+  height: 180px;
+  border: 1px solid #000;
+  border-radius: 46%;
+}
+
+.cat-left-ear {
+  position: absolute;
+  top: -26px;
+  left: -31px;
+  z-index: 1;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  transform: rotate(-45deg);
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid #5e5e5e;
+}
+
+.cat-right-ear {
+  position: absolute;
+  top: -26px;
+  left: 163px;
+  z-index: 1;
+  transform: rotate(45deg);
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid #5e5e5e;
+}
+
+.cat-left-inner-ear {
+  position: absolute;
+  top: 22px;
+  left: -20px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #3b3b4f;
+}
+
+.cat-right-inner-ear {
+  position: absolute;
+  top: 22px;
+  left: -20px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #3b3b4f;
+}
+
+.cat-left-eye {
+  position: absolute;
+  top: 54px;
+  left: 39px;
+  border-radius: 60%;
+  transform: rotate(25deg);
+  width: 30px;
+  height: 40px;
+  background-color: #000;
+}
+
+.cat-right-eye {
+  position: absolute;
+  top: 54px;
+  left: 134px;
+  border-radius: 60%;
+  transform: rotate(-25deg);
+  width: 30px;
+  height: 40px;
+  background-color: #000;
+}
+
+.cat-left-inner-eye {
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  width: 10px;
+  height: 20px;
+  transform: rotate(10deg);
+  background-color: #fff;
+  border-radius: 60%;
+}
+
+.cat-right-inner-eye {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  transform: rotate(-5deg);
+  width: 10px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 60%;
+}
+
+.cat-nose {
+  position: absolute;
+  top: 108px;
+  left: 85px;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  transform: rotate(180deg);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #442c2c;
+}
+
+.cat-mouth div {
+  width: 30px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 190%/190px 150px 0 0;
+  border-color: black transparent transparent transparent;
+}
+
+.cat-mouth-line-left {
+  position: absolute;
+  top: 88px;
+  left: 74px;
+  transform: rotate(170deg);
+}
+
+.cat-mouth-line-right {
+  position: absolute;
+  top: 88px;
+  left: 91px;
+  transform: rotate(165deg);
+}
+
+.cat-whiskers-left div {
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+}
+
+.cat-whiskers-right div {
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+}
+
+.cat-whisker-left-top {
+  position: absolute;
+  top: 120px;
+  left: 52px;
+  transform: rotate(10deg);
+}
+
+.cat-whisker-left-middle {
+  position: absolute;
+  top: 127px;
+  left: 52px;
+  transform: rotate(3deg);
+}
+
+.cat-whisker-left-bottom {
+  position: absolute;
+  top: 134px;
+  left: 52px;
+  transform: rotate(-3deg);
+}
+
+.cat-whisker-right-top {
+  position: absolute;
+  top: 120px;
+  left: 109px;
+  transform: rotate(-10deg);
+}
+
+.cat-whisker-right-middle {
+  position: absolute;
+  top: 127px;
+  left: 109px;
+  transform: rotate(-3deg);
+}
+
+.cat-whisker-right-bottom {
+  position: absolute;
+  top: 134px;
+  left: 109px;
+  transform: rotate(3deg);
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-intermediate-css-by-building-a-cat-painting/step-1" target="_blank">Course 12</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_Responsive_Web_Design_by_Building_a_Piano:">
+    <header>Learn Responsive Web Design by Building a Piano:</header>
+    <article>
+      <p>Responsive Design tells your webpage how it should look on different-sized screens.</p>
+
+<p>In this course, you'll use CSS and Responsive Design to code a piano. You'll also learn more about media queries and pseudo selectors</p>
+<ul><li>HTML:<xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Piano</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div id="piano">
+      <img class="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp Logo" />
+      <div class="keys">
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+      </div>
+    </div>
+  </body>
+</html></xmp></li></ul>
+<ul><li>CSS:<code>
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+#piano {
+  background-color: #00471b;
+  width: 992px;
+  height: 290px;
+  margin: 80px auto;
+  padding: 90px 20px 0 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.keys {
+  background-color: #040404;
+  width: 949px;
+  height: 180px;
+  padding-left: 2px;
+  overflow: hidden;
+}
+
+.key {
+  background-color: #ffffff;
+  position: relative;
+  width: 41px;
+  height: 175px;
+  margin: 2px;
+  float: left;
+  border-radius: 0 0 3px 3px;
+}
+
+.key.black--key::after {
+  background-color: #1d1e22;
+  content: "";
+  position: absolute;
+  left: -18px;
+  width: 32px;
+  height: 100px;
+  border-radius: 0 0 3px 3px;
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  top: 23px;
+}
+
+@media (max-width: 768px) {
+  #piano {
+    width: 358px;
+  }
+
+  .keys {
+    width: 318px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 769px) { #piano {
+  width: 675px;
+
+}
+.keys {width:633px;}
+}</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-responsive-web-design-by-building-a-piano/step-1" target="_blank">Course 13</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Technical_Documentation_Page_-_Certification_Project:">
+    <header>Technical Documentation Page - Certification Project:</header>
+    <article>
+      <p>This is one of the required projects to earn your certification.</p> 
+        
+<p>For this project, you will build a technical documentation page to serve as instrucction or referencce for a topic.</p>
+<ul><li>HTML:<code>Not Finished</code></li></ul>
+<ul><li>CSS:<code>Not Finished</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page" target="_blank">Course 14</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+   <section class="main-section" id="Learn_CSS_Variables_by_Building_a_City_Skyline:">
+    <header>Learn CSS Variables by Building a City Skyline:</header>
+    <article>
+      <p>CSS variables help you organize your styles and reuse them.</p>
+
+<p>In this course, you'll build a city skyline. You'll learn how to configure CSS variables so you can reuse them whenever you want.</p>
+<ul><li>HTML:<code>Not Finished</code></li></ul>
+<ul><li>CSS:<code>Not Finished</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-variables-by-building-a-city-skyline/step-1" target="_blank">Course 15</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+<section class="main-section" id="Learn_CSS_Grid_by_Building_a_Magazine:">
+    <header>Learn CSS Grid by Building a Magazine:</header>
+    <article>
+      <p>CSS Grid gives you control over the rows and columns of your webpage design.</p>
+
+<p>In this course, you'll build a magazine article. You'll learn how to use CSS Grid, including concepts like grid rows and grid columns.</p>
+<ul><li>HTML:<code>Not Finished</code></li></ul>
+<ul><li>CSS:<code>Not Finished</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-grid-by-building-a-magazine/step-1" target="_blank">Course 16</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Product_Landing_Page_-_Certification_Project:">
+    <header>Product Landing Page - Certification Project:</header>
+    <article>
+      <p>This is one of the required projects to earn your certification.</p> 
+        
+<p>For this project, you will build a product landing page to market a product of your choice.</p>
+<ul><li>HTML:<code>Not Finished</code></li></ul>
+<ul><li>CSS:<code>Not Finished</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page" target="_blank">Course 17</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Learn_CSS_Animation_by_Building_a_Ferris_Wheel:">
+    <header>Learn CSS Animation by Building a Ferris Wheel:</header>
+    <article>
+      <p>You can use CSS animation to draw attention to specific sections of your webpage and make it more engaging.</p>
+
+<p>In this course, you'll build a Ferris wheel. You'll learn how to use CSS to animate elements, transform them, and adjust their speed.</p>
+<ul><li>HTML:<code>Not Finished</code></li></ul>
+<ul><li>CSS:<code>Not Finished</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-animation-by-building-a-ferris-wheel/step-1" target="_blank">Course 18</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Learn_CSS_Transforms_by_Building_a_Penguin:">
+    <header>Learn CSS Transforms by Building a Penguin:</header>
+    <article>
+      <p>You can transform HTML elements to create appealing designs that draw your reader's eye. You can use transforms to rotate elements, scale them, and more.</p>
+
+<p>In this course, you'll build a penguin. You'll use CSS transforms to position and resize the parts of your penguin, create a background, and animate your work.</p>
+<ul><li>HTML:<code>Not Finished</code></li></ul>
+<ul><li>CSS:<code>Not Finished</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-transforms-by-building-a-penguin/step-1" target="_blank">Course 19</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Personal_Portfolio_Webpage_-_Certification_Project:">
+    <header>Personal Portfolio Webpage - Certification Project:</header>
+    <article>
+      <p>This is one of the required porjects to earn your certification.</p>
+
+<p>For this project, you will build your own personal portfolio page.
+      </p>
+<ul><li>HTML:<code>Not Finished</code></li></ul>
+<ul><li>CSS:<code>Not Finished</code></li></ul>
+      <ul>
+        <li>
+          Link for:
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage" target="_blank">Course 20</a>. 
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+            target="_blank"
+            >FreeCodeCamp</a>.
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+</html>
